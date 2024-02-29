@@ -1,7 +1,10 @@
+package Calculadora;
+
 import java.util.Scanner;
 
-public class Maincalc {    public static void main(String[] args) {
-        Calculadora c = new Calculadora();
+public class MainCalc {
+    public static void main(String[] args) {
+        Calc c = new Calc();
         Scanner sc = new Scanner(System.in);
         String r;
         int n1, n2;
@@ -40,4 +43,5 @@ public class Maincalc {    public static void main(String[] args) {
         } while (r.equalsIgnoreCase ("S"));
         System.out.println("Finalizando.");
     }
-}
+    }
+

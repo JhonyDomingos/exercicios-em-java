@@ -1,3 +1,5 @@
+package INSS;
+
 import java.util.Scanner;
 
 public class MainINSS {

@@ -1,11 +1,13 @@
+package CalculoMedia;
+
 import java.util.Locale;
 import java.util.Scanner;
 
-public class MainMedia {
+public class MainMediaCalc {
     public static void main(String[] args) {
         String repetir = "S";
 
-        CalculoMedia calc = new CalculoMedia();
+        MediCalc calc = new MediCalc();
 
         Locale.setDefault(Locale.US);
 
@@ -32,3 +34,4 @@ public class MainMedia {
         System.out.println("\nObrigado por usar o programa!");
     }
 }
+

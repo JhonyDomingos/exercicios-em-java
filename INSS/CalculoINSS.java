@@ -1,3 +1,5 @@
+package INSS;
+
 public class CalculoINSS {
     double percent = 0.15, desconto, bruto, liquido;
 

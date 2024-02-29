@@ -1,4 +1,6 @@
-public class CalculoMedia {
+package CalculoMedia;
+
+public class MediCalc {
     int quantidade = 0;
     double soma = 0, nota, media;
 
@@ -17,4 +19,6 @@ public class CalculoMedia {
             System.out.println("Aluno REPROVADO!");
         }
     }
+
+
 }
